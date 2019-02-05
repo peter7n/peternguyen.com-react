@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 import {
 	Route,
-	NavLink,
-	HashRouter
+	NavLink
 } from "react-router-dom";
 import Home from "./Home";
 import Work from "./Work";
 import Contact from "./Contact";
 import About from "./About";
+import Design from "./Design";
+import Giveto from "./Giveto";
 
 class Main extends Component {
 	render() {
 		return (
-			<HashRouter>
+
 				<div>
 					<header>
 						<h1><NavLink to="/">Peter Nguyen</NavLink></h1>
@@ -26,12 +27,14 @@ class Main extends Component {
 					</header>
 	      		<div>
 						<Route exact path="/" component={Home} />
-						<Route path="/work" component={Work} />
+						<Route exact path="/work" component={Work} />
 						<Route path="/about" component={About} />
 						<Route path="/contact" component={Contact} />
+						<Route path="/work/design" component={Design} />
+						<Route path="/work/giveto" component={Giveto} />
 	      		</div>
 	      	</div>
-			</HashRouter>
+
 		);
 	}
 }

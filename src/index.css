@@ -1,5 +1,9 @@
 /*===================== GLOBAL STYLES =====================*/
 
+* {
+   box-sizing: border-box;
+}
+
 header, section, footer, aside, nav, main, article, figure {
   display: block;
 }
@@ -89,7 +93,7 @@ nav li a {
   transition: color 0.2s;
 }
 
-nav li a:hover, nav li a.current {
+nav li a:hover, nav li a.active {
   color: #ADD8E6;
 }
 
@@ -129,17 +133,15 @@ nav li a:hover, nav li a.current {
   margin: 75px 10px 0px 10px;
 }
 
-img.narrow {
+img.narrow, img.wide {
   width: 100%;
-}
-
-img.wide {
-  width: 100%;
+  border: 1px solid #cccccc;
 }
 
 .img-wrap {
   display: block;
   position: relative;
+  margin-bottom: 30px;
   padding: 0px;
   cursor: pointer;
 }
@@ -178,6 +180,17 @@ img.wide {
     text-align: center;
   }
 
+.intro {
+   display: block;
+   height: 100vh;
+   margin: 0px 10px 0px 10px;
+}
+
+.intro .text {
+   position: absolute;
+   bottom: 35%;
+}
+
 @media (min-width: 481px) {
   img.narrow {
     max-width: 400px;
@@ -207,4 +220,12 @@ img.wide {
     max-width: 800px;
     margin: 0px 10px 0px 190px;
   }
+
+  .intro {
+     margin: 0px 10px 0px 190px;
+  }
+
+  .intro .text {
+     bottom: 50%;
+ }
 }
