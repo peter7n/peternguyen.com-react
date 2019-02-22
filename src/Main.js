@@ -9,6 +9,8 @@ import Contact from "./Contact";
 import About from "./About";
 import Design from "./Design";
 import Giveto from "./Giveto";
+import Ipad from "./Ipad";
+import Commencement from "./Commencement";
 
 class Main extends Component {
 	render() {
@@ -31,7 +33,9 @@ class Main extends Component {
 						<Route path="/about" component={About} />
 						<Route path="/contact" component={Contact} />
 						<Route path="/work/design" component={Design} />
+						<Route path="/work/commencement" component={Commencement} />
 						<Route path="/work/giveto" component={Giveto} />
+						<Route path="/work/ipad" component={Ipad} />
 	      		</div>
 	      	</div>
 

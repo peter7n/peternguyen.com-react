@@ -1,5 +1,12 @@
 /*===================== GLOBAL STYLES =====================*/
 
+:root {
+   --main-bg-color: #f4f7f6;
+   /* #f4f7f6 #ecf2f9 */
+   --highlight: #008ae6;
+   /* #99ddff #ADD8E6 #e37222 */
+}
+
 * {
    box-sizing: border-box;
 }
@@ -13,6 +20,7 @@ body {
   margin: 0;
   font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
+  background-color: var(--main-bg-color);
 }
 
 h1 {
@@ -37,7 +45,7 @@ p a {
 }
 
 p a:hover {
-  color: #ADD8E6;
+  color: var(--highlight);
 }
 
 span {
@@ -51,7 +59,7 @@ span {
 header {
   position: fixed;
   width: 100%;
-  background-color: #FFF;
+  background-color: var(--main-bg-color);
   letter-spacing: 0.3em;
   text-transform: uppercase;
   z-index: 1;
@@ -77,7 +85,7 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 5px 10px 13px 8px;
+  padding: 5px 8px 13px 11px;
   border-width: 0px 1px 0px 0px;
   border-style: solid;
 }
@@ -94,7 +102,7 @@ nav li a {
 }
 
 nav li a:hover, nav li a.active {
-  color: #ADD8E6;
+  color: var(--highlight);
 }
 
 @media (min-width: 768px) {
@@ -125,7 +133,7 @@ nav li a:hover, nav li a.active {
 
 .work {
   float: left;
-  margin: 75px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .content {
@@ -135,22 +143,30 @@ nav li a:hover, nav li a.active {
 
 img.narrow, img.wide {
   width: 100%;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
 }
 
 .img-wrap {
   display: block;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   padding: 0px;
   cursor: pointer;
+}
+
+.img-wrap.margin {
+   margin: 0 50px 100px 50px;
 }
 
 .img-wrap.wide {
   display: block;
   position: relative;
   padding: 0px;
-  margin: 0px;
+  margin: 0 0 100px 0;
+}
+
+.img-wrap.no-description {
+   cursor: default;
 }
 
 .img-description {
@@ -188,6 +204,11 @@ img.narrow, img.wide {
 
 .intro .text {
    position: absolute;
+   bottom: 1%;
+}
+
+.intro.centered .text {
+   position: absolute;
    bottom: 35%;
 }
 
@@ -197,22 +218,26 @@ img.narrow, img.wide {
   }
 
   img.wide {
-    max-width: 800px;
+    max-width: 1200px;
   }
 
   .img-wrap {
     max-width: 400px;
   }
 
+  .img-wrap.margin img.narrow {
+     max-width: 320px;
+ }
+
   .img-wrap.wide {
-    max-width: 800px;
+    max-width: 1200px;
   }
 }
 
 @media (min-width: 768px) {
   .work {
     float: left;
-    margin: 0px 0px 0px 170px;
+    margin: 10px 0px 0px 190px;
   }
 
   .content {
@@ -221,11 +246,19 @@ img.narrow, img.wide {
     margin: 0px 10px 0px 190px;
   }
 
+  .img-wrap.margin {
+     margin: 0 0 100px 0;
+  }
+
   .intro {
      margin: 0px 10px 0px 190px;
   }
 
   .intro .text {
+     bottom: 1%;
+ }
+
+  .intro.centered .text {
      bottom: 50%;
  }
 }

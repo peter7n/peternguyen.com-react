@@ -30,41 +30,19 @@ class Design extends Component {
 			<div>
 			<div className="intro">
 				<div className="text">
-					<p>Design Direction.<br />
-						A selection of covers for The San Diego Union-Tribune and The Orange County Register.
-					</p>
+					<p>Design and creative direction for covers of The San Diego Union-Tribune and The Orange County Register</p>
+					<p>Click on each image for individual credits</p>
 				</div>
 			</div>
 
 			<div className="work">
 				<div className="img-wrap">
-					<img src="images/ipad-sun-cover.jpg" alt="iPad Sunday cover" className="narrow" />
-					<div className="img-description">
-						<p>
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap">
 					<img src="images/arts-don-giovanni.jpg" alt="Don Giovanni cover" className="narrow" />
 					<div className="img-description">
 						<p>
-							Illustration: Cristina Byvik<br />
-							Design: Gloria Orbegozo<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap">
-					<img src="images/ipad-comic-cover1.jpg" alt="iPad Comic-Con Ash Wood cover" className="narrow" />
-					<div className="img-description">
-						<p>
-							Illustration: Ashley Wood<br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
+							Illustrator: Cristina Byvik<br />
+							Designer: Gloria Orbegozo<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -72,9 +50,9 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/wkend-fury.jpg" alt="Weekend Fury cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: Adam Vieyra<br />
-							Design: Adam Vieyra<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: Adam Vieyra<br />
+							Designer: Adam Vieyra<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -83,38 +61,9 @@ class Design extends Component {
 					<img src="images/arts-preview.jpg" alt="Arts preview cover" className="narrow" />
 					<div className="img-description">
 						<p>
-							Illustration: Cristina Byvik<br />
-							Design: Gloria Orbegozo<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap">
-					<img src="images/ipad-sun-story.jpg" alt="iPad Sunday cover story" className="narrow" />
-					<div className="img-description">
-						<p>Photography: Sean M. Haffey<br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap">
-					<img src="images/ipad-sun-week.jpg" alt="iPad Sunday week in review" className="narrow" />
-					<div className="img-description">
-						<p>Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap">
-					<img src="images/ipad-sun-photos.jpg" alt="iPad Sunday photos" className="narrow" />
-					<div className="img-description">
-						<p>Photography: Howard Lipin<br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
+							Illustrator: Cristina Byvik<br />
+							Designer: Gloria Orbegozo<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -122,17 +71,17 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/wkend-equalizer.jpg" alt="Weekend Equalizer cover" className="narrow" />
 					<div className="img-description">
-						<p>Design: Jose Antonio Morales<br />
-							Design Direction: Peter Nguyen</p>
+						<p>Designer: Jose Antonio Morales<br />
+							Design Director: Peter Nguyen</p>
 					</div>
 				</div>
 
 				<div className="img-wrap">
 					<img src="images/wkend-mockingjay.jpg" alt="Weekend Mockingjay cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: Adam Vieyra<br />
-							Design: Adam Vieyra<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: Adam Vieyra<br />
+							Designer: Adam Vieyra<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -140,29 +89,9 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/arts-pagliacci.jpg" alt="Arts Pagliacci cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: Cristina Byvik<br />
-							Design: Gloria Orbegozo<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap">
-					<img src="images/ipad-padres-lineup.jpg" alt="iPad Padres lineup" className="narrow" />
-					<div className="img-description">
-						<p>Photography: John McCutchen<br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap wide">
-					<img src="images/ipad-padres-rewind.jpg" alt="iPad Padres Rewind" className="wide" />
-					<div className="img-description">
-						<p>Photography: John McCutchen<br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: Cristina Byvik<br />
+							Designer: Gloria Orbegozo<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -170,9 +99,9 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/wkend-moses.jpg" alt="Weekend Moses cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: Adam Vieyra<br />
-							Design: Adam Vieyra<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: Adam Vieyra<br />
+							Designer: Adam Vieyra<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -180,8 +109,8 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/wkend-boyhood.jpg" alt="Weekend Boyhood cover" className="narrow" />
 					<div className="img-description">
-						<p>Design: Jose Antonio Morales<br />
-							Design Direction: Peter Nguyen
+						<p>Designer: Jose Antonio Morales<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -189,8 +118,8 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/wkend-skyfall.jpg" alt="Weekend Skyfall cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: Peter Nguyen<br />
-							Design: Peter Nguyen
+						<p>Designer: Peter Nguyen<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -198,9 +127,9 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/nd-mardigras.jpg" alt="Mardi Gras cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: <a href="http://www.ohmgee.com/" target="_blank" rel="noopener noreferrer">Martin Gee</a><br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: <a href="http://www.ohmgee.com/" target="_blank" rel="noopener noreferrer">Martin Gee</a><br />
+							Designer: Peter Nguyen<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -208,9 +137,9 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/nd-jet.jpg" alt="Jet Propulsion cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: <a href="http://www.jamesflames.com/" target="_blank" rel="noopener noreferrer">James Flames</a><br />
-							Design: Chris Barber<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: <a href="http://www.jamesflames.com/" target="_blank" rel="noopener noreferrer">James Flames</a><br />
+							Designer: Chris Barber<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -218,9 +147,9 @@ class Design extends Component {
 				<div className="img-wrap">
 					<img src="images/arts-opera-pit.jpg" alt="Opera Faust cover" className="narrow" />
 					<div className="img-description">
-						<p>Illustration: Cristina Byvik<br />
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
+						<p>Illustrator: Cristina Byvik<br />
+							Designer: Peter Nguyen<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
@@ -229,8 +158,8 @@ class Design extends Component {
 					<img src="images/squeeze-vip.jpg" alt="Squeeze VIP spread" className="wide" />
 					<div className="img-description">
 						<p>
-							Design: Peter Nguyen<br />
-							Design Direction: Peter Nguyen
+							Designer: Peter Nguyen<br />
+							Design Director: Peter Nguyen
 						</p>
 					</div>
 				</div>
