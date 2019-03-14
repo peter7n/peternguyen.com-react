@@ -3,7 +3,11 @@ import React, { Component } from "react";
 class Tile extends Component {
 	render() {
 		return (
-			<div className="img-wrap wide" onClick={this.props.onClick}>
+			<div
+				// className="img-wrap wide"
+				onClick={() => this.props.myClick()}
+				className={"img-wrap wide " + this.props.activeState}
+			>
 				<img src={this.props.value1} alt="" className="wide" />
 				<div className="img-description">
 					<p>
@@ -18,10 +22,10 @@ class Tile extends Component {
 class Portfolio extends Component {
 	constructor(props) {
 		var numPieces = props.pieces.length;
-		console.log(numPieces);
 		super(props);
 			this.state = {
-				descriptionState: Array(numPieces).fill(null)
+				descriptionState: Array(numPieces).fill(0),
+				activePiece: 24
 			};
 	}
 
@@ -34,8 +38,20 @@ class Portfolio extends Component {
 		);
 	}
 
-	handleClick(i) {
-		console.log("click " + i);
+	handleClick(index) {
+		console.log("click " + index);
+		const descState = this.state.descriptionState.slice();
+		descState[index] = 1;
+		// this.refs.index.style.visibility = "hidden";
+		this.setState({
+			descriptionState: descState,
+			activePiece: index,
+		});
+		for (var j = 0; j < descState.length; j++) {
+			if (descState[j] === 1) {
+				console.log("on at: " + j);
+			}
+		}
 	}
 
 	render() {
@@ -43,11 +59,17 @@ class Portfolio extends Component {
 		return (
 			<div>
 			{piecesArray.map((piece, index) => {
+				var tfActive = "";
+				console.log("active: " + this.state.activePiece);
+				if (index === this.state.activePiece) {
+					tfActive = "active";
+				}
 				return (<Tile
 								value1={piece.imgSrc}
 								value2={piece.imgDesc}
 								key={index}
-								onClick={() => this.handleClick(index)}
+								activeState = {tfActive}
+								myClick={() => this.handleClick(index)}
 							/>)
 			})}
 			</div>

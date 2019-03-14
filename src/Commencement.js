@@ -5,8 +5,8 @@ class Commencement extends Component {
 
 	render() {
 		const pieces = [
-			{"imgSrc":"images/com-2017-desktop-1-1.jpg", "imgDesc": "Hello World"},
-			{"imgSrc":"images/com-2017-desktop-1-2a.jpg", "imgDesc": "Hello again"}
+			{"imgSrc":"images/com-2019-desktop-2-1.jpg", "imgDesc": "Hello World"},
+			{"imgSrc":"images/com-2019-desktop-2-2.jpg", "imgDesc": "Hello again"}
 		];
 		return (
 			<div>

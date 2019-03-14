@@ -169,6 +169,11 @@ img.narrow, img.wide {
    cursor: default;
 }
 
+.img-wrap.active .img-description {
+   visibility: visible;
+   opacity: 100;
+}
+
 .img-description {
   position: absolute;
   top: 0px;
