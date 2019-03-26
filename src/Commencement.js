@@ -6,7 +6,7 @@ class Commencement extends Component {
 	render() {
 		const pieces = [
 			{
-				"imgSrc":"images/com-2017-desktop-1-1.jpg",
+				"imgSrc":"/images/com-2017-desktop-1-1.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Home Page",
@@ -14,7 +14,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2017-desktop-1-2a.jpg",
+				"imgSrc":"/images/com-2017-desktop-1-2a.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Home Page",
@@ -22,7 +22,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2017-desktop-2-1-3.jpg",
+				"imgSrc":"/images/com-2017-desktop-2-1-3.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Video Livestream Page",
@@ -30,7 +30,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-2-1.jpg",
+				"imgSrc":"/images/com-2019-desktop-2-1.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",
@@ -38,7 +38,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-2-2.jpg",
+				"imgSrc":"/images/com-2019-desktop-2-2.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",
@@ -46,7 +46,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-3-1.jpg",
+				"imgSrc":"/images/com-2019-desktop-3-1.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",
@@ -54,7 +54,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-4-1.jpg",
+				"imgSrc":"/images/com-2019-desktop-4-1.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",
@@ -62,7 +62,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-5-1.jpg",
+				"imgSrc":"/images/com-2019-desktop-5-1.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",
@@ -70,7 +70,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-6-1.jpg",
+				"imgSrc":"/images/com-2019-desktop-6-1.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",
@@ -78,7 +78,7 @@ class Commencement extends Component {
 				"imgAlt": "Commencement website screenshot"
 			},
 			{
-				"imgSrc":"images/com-2019-desktop-6-2.jpg",
+				"imgSrc":"/images/com-2019-desktop-6-2.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Desktop View",
 				"imgDesc3": "Interior Page",

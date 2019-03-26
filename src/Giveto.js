@@ -5,7 +5,7 @@ class Giveto extends Component {
 	render() {
 		const pieces = [
 			{
-				"imgSrc":"images/giveto-mobile-1-1.png",
+				"imgSrc":"/images/giveto-mobile-1-1.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 1 | Select a Gift",
@@ -13,7 +13,7 @@ class Giveto extends Component {
 				"imgAlt": "Give to UCSD screenshot"
 			},
 			{
-				"imgSrc":"images/giveto-mobile-1-2.png",
+				"imgSrc":"/images/giveto-mobile-1-2.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 1 | Select a Gift",
@@ -21,7 +21,7 @@ class Giveto extends Component {
 				"imgAlt": "Give to UCSD screenshot"
 			},
 			{
-				"imgSrc":"images/giveto-mobile-1-3.png",
+				"imgSrc":"/images/giveto-mobile-1-3.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 1 | Select a Gift",
@@ -29,7 +29,7 @@ class Giveto extends Component {
 				"imgAlt": "Give to UCSD screenshot"
 			},
 			{
-				"imgSrc":"images/giveto-mobile-2-1.png",
+				"imgSrc":"/images/giveto-mobile-2-1.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 2 | Confirm Gift Details",
@@ -37,7 +37,7 @@ class Giveto extends Component {
 				"imgAlt": "Give to UCSD screenshot"
 			},
 			{
-				"imgSrc":"images/giveto-mobile-2-3.png",
+				"imgSrc":"/images/giveto-mobile-2-3.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 2 | Confirm Gift Details",
@@ -45,7 +45,7 @@ class Giveto extends Component {
 				"imgAlt": "Give to UCSD screenshot"
 			},
 			{
-				"imgSrc":"images/giveto-mobile-3-1.png",
+				"imgSrc":"/images/giveto-mobile-3-1.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 3 | Enter Your Information",
@@ -53,7 +53,7 @@ class Giveto extends Component {
 				"imgAlt": "Give to UCSD screenshot"
 			},
 			{
-				"imgSrc":"images/giveto-mobile-3-3.png",
+				"imgSrc":"/images/giveto-mobile-3-3.png",
 				"imgDesc1": "",
 				"imgDesc2": "Mobile View",
 				"imgDesc3": "Step 3 | Enter Your Information",

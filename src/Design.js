@@ -5,7 +5,7 @@ class Design extends Component {
 	render() {
 		const pieces = [
 			{
-				"imgSrc":"images/arts-don-giovanni.jpg",
+				"imgSrc":"/images/arts-don-giovanni.jpg",
 				"imgDesc1": "Illustrator: Cristina Byvik",
 				"imgDesc2": "Designer: Gloria Orbegozo",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -13,7 +13,7 @@ class Design extends Component {
 				"imgAlt": "Don Giovanni cover"
 			},
 			{
-				"imgSrc":"images/wkend-fury.jpg",
+				"imgSrc":"/images/wkend-fury.jpg",
 				"imgDesc1": "Illustrator: Adam Vieyra",
 				"imgDesc2": "Designer: Adam Vieyra",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -21,7 +21,7 @@ class Design extends Component {
 				"imgAlt": "Weekend Fury cover"
 			},
 			{
-				"imgSrc":"images/arts-preview.jpg",
+				"imgSrc":"/images/arts-preview.jpg",
 				"imgDesc1": "Illustrator: Cristina Byvik",
 				"imgDesc2": "Designer: Gloria Orbegozo",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -29,7 +29,7 @@ class Design extends Component {
 				"imgAlt": "Arts preview cover"
 			},
 			{
-				"imgSrc":"images/wkend-equalizer.jpg",
+				"imgSrc":"/images/wkend-equalizer.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Designer: Jose Antonio Morales",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -37,7 +37,7 @@ class Design extends Component {
 				"imgAlt": "Weekend Equalizer cover"
 			},
 			{
-				"imgSrc":"images/wkend-mockingjay.jpg",
+				"imgSrc":"/images/wkend-mockingjay.jpg",
 				"imgDesc1": "Illustrator: Adam Vieyra",
 				"imgDesc2": "Designer: Adam Vieyra",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -45,7 +45,7 @@ class Design extends Component {
 				"imgAlt": "Weekend Mockingjay cover"
 			},
 			{
-				"imgSrc":"images/arts-pagliacci.jpg",
+				"imgSrc":"/images/arts-pagliacci.jpg",
 				"imgDesc1": "Illustrator: Cristina Byvik",
 				"imgDesc2": "Designer: Gloria Orbegozo",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -53,7 +53,7 @@ class Design extends Component {
 				"imgAlt": "Arts Pagliacci cover"
 			},
 			{
-				"imgSrc":"images/wkend-moses.jpg",
+				"imgSrc":"/images/wkend-moses.jpg",
 				"imgDesc1": "Illustrator: Adam Vieyra",
 				"imgDesc2": "Designer: Adam Vieyra",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -61,7 +61,7 @@ class Design extends Component {
 				"imgAlt": "Weekend Moses cover"
 			},
 			{
-				"imgSrc":"images/wkend-boyhood.jpg",
+				"imgSrc":"/images/wkend-boyhood.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Designer: Jose Antonio Morales",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -69,7 +69,7 @@ class Design extends Component {
 				"imgAlt": "Weekend Boyhood cover"
 			},
 			{
-				"imgSrc":"images/wkend-skyfall.jpg",
+				"imgSrc":"/images/wkend-skyfall.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Designer: Peter Nguyen",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -77,7 +77,7 @@ class Design extends Component {
 				"imgAlt": "Weekend Skyfall cover"
 			},
 			{
-				"imgSrc":"images/nd-mardigras.jpg",
+				"imgSrc":"/images/nd-mardigras.jpg",
 				"imgDesc1": "Illustrator: Martin Gee",
 				"imgDesc2": "Designer: Peter Nguyen",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -85,7 +85,7 @@ class Design extends Component {
 				"imgAlt": "Mardi Gras cover"
 			},
 			{
-				"imgSrc":"images/nd-jet.jpg",
+				"imgSrc":"/images/nd-jet.jpg",
 				"imgDesc1": "Illustrator: James Flames",
 				"imgDesc2": "Designer: Chris Barber",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -93,7 +93,7 @@ class Design extends Component {
 				"imgAlt": "Jet Propulsion cover"
 			},
 			{
-				"imgSrc":"images/arts-opera-pit.jpg",
+				"imgSrc":"/images/arts-opera-pit.jpg",
 				"imgDesc1": "Illustrator: Cristina Byvik",
 				"imgDesc2": "Designer: Peter Nguyen",
 				"imgDesc3": "Design Director: Peter Nguyen",
@@ -101,7 +101,7 @@ class Design extends Component {
 				"imgAlt": "Opera Faust cover"
 			},
 			{
-				"imgSrc":"images/squeeze-vip.jpg",
+				"imgSrc":"/images/squeeze-vip.jpg",
 				"imgDesc1": "",
 				"imgDesc2": "Designer: Peter Nguyen",
 				"imgDesc3": "Design Director: Peter Nguyen",
