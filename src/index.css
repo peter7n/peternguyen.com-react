@@ -30,6 +30,10 @@ h1 {
   letter-spacing: 0.4em;
 }
 
+img.narrow {
+   width: 100%;
+}
+
 p {
   text-transform: none;
   font-size: 18px;
@@ -141,7 +145,7 @@ nav li a:hover, nav li a.active {
   margin: 75px 10px 0px 10px;
 }
 
-img.narrow, img.wide {
+.img-wrap.narrow img, .img-wrap.wide img {
   width: 100%;
   /* border: 1px solid #cccccc; */
 }
@@ -170,20 +174,18 @@ img.narrow, img.wide {
 }
 
 .img-wrap.active .img-description {
-   visibility: visible;
    opacity: 100;
 }
 
 .img-description {
   position: absolute;
   top: 0px;
-  bottom: 0px;
+  bottom: 4px;
   left: 0px;
   right: 0px;
   width: 100%;
   margin: 0px;
   background: rgba(255, 255, 255, 0.75);
-  visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
@@ -218,11 +220,11 @@ img.narrow, img.wide {
 }
 
 @media (min-width: 481px) {
-  img.narrow {
+  .img-wrap.narrow img, img.narrow {
     max-width: 400px;
   }
 
-  img.wide {
+  .img-wrap.wide img {
     max-width: 1200px;
   }
 
@@ -230,7 +232,7 @@ img.narrow, img.wide {
     max-width: 400px;
   }
 
-  .img-wrap.margin img.narrow {
+  .img-wrap.margin.narrow img {
      max-width: 320px;
  }
 

@@ -6,8 +6,8 @@ class Work extends Component {
 		return (
 			<div className="intro centered">
 				<div className="text">
-					<p><Link to="/work/commencement">Commencement Site</Link></p>
-					<p><Link to="/work/giveto">Giving Site</Link></p>
+					<p><Link to="/work/commencement">Commencement Website</Link></p>
+					<p><Link to="/work/giveto">Giving Website</Link></p>
 					<p><Link to="/work/ipad">iPad Mags</Link></p>
 					<p><Link to="/work/design">Design Direction</Link></p>
 				</div>

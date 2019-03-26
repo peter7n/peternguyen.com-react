@@ -1,113 +1,80 @@
 import React, { Component } from "react";
+import Portfolio from "./Portfolio";
 
 class Giveto extends Component {
-	componentDidMount() {
-		var imgWrapList = document.getElementsByClassName("img-wrap");
-
-		var imgWrapClick = function () {
-			var imgDescNode = this.childNodes[1];
-			var styles = window.getComputedStyle(imgDescNode);
-			var visibilityVal = styles.getPropertyValue("visibility");
-
-			// Toggle image description visible/hidden
-			if (visibilityVal === "hidden") {
-				imgDescNode.style.visibility = "visible";
-				imgDescNode.style.opacity = "1";
-			}
-			else {
-				imgDescNode.style.visibility = "hidden";
-				imgDescNode.style.opacity = "0";
-			}
-		}
-
-		for (var i = 0; i < imgWrapList.length; i++) {
-			imgWrapList[i].addEventListener("click", imgWrapClick, false);
-		}
-	}
-
 	render() {
+		const pieces = [
+			{
+				"imgSrc":"images/giveto-mobile-1-1.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 1 | Select a Gift",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+			{
+				"imgSrc":"images/giveto-mobile-1-2.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 1 | Select a Gift",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+			{
+				"imgSrc":"images/giveto-mobile-1-3.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 1 | Select a Gift",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+			{
+				"imgSrc":"images/giveto-mobile-2-1.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 2 | Confirm Gift Details",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+			{
+				"imgSrc":"images/giveto-mobile-2-3.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 2 | Confirm Gift Details",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+			{
+				"imgSrc":"images/giveto-mobile-3-1.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 3 | Enter Your Information",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+			{
+				"imgSrc":"images/giveto-mobile-3-3.png",
+				"imgDesc1": "",
+				"imgDesc2": "Mobile View",
+				"imgDesc3": "Step 3 | Enter Your Information",
+				"imgClass": "margin narrow",
+				"imgAlt": "Give to UCSD screenshot"
+			},
+		];
 		return (
 			<div>
-			<div className="intro">
-				<div className="text">
-					<p>Design and development for UC San Diego’s transactional giving site</p>
+				<div className="intro">
+					<div className="text">
+					<p>Design and development for UC San Diego’s transactional giving website</p>
 					<p>jQuery | JavaScript | HTML | CSS</p>
-				</div>
-			</div>
-
-			<div className="work">
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-1-1.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 1 | Select a Gift
-						</p>
 					</div>
 				</div>
 
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-1-2.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 1 | Select a Gift
-						</p>
-					</div>
+				<div className="work">
+					<Portfolio
+						pieces={pieces}
+					/>
 				</div>
-
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-1-3.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 1 | Select a Gift
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-2-1.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 2 | Confirm Gift Details
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-2-3.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 2 | Confirm Gift Details
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-3-1.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 3 | Enter Your Information
-						</p>
-					</div>
-				</div>
-
-				<div className="img-wrap margin">
-					<img src="images/giveto-mobile-3-3.png" alt="" className="narrow" />
-					<div className="img-description">
-						<p>
-							Mobile View<br />
-							Step 3 | Enter Your Information
-						</p>
-					</div>
-				</div>
-
-
-   		</div>
 			</div>
 		);
 	}
