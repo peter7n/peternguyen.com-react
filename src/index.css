@@ -19,6 +19,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   text-align: left;
   background-color: var(--main-bg-color);
 }
@@ -39,10 +40,15 @@ p {
   font-size: 18px;
   line-height: 28px;
   color: #808080;
+  /* margin-top: 0; */
+}
+
+.black {
+  color: #000;
 }
 
 p a {
-  color: #000;
+  color: #808080;
   /*text-decoration: none;*/
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
@@ -52,10 +58,22 @@ p a:hover {
   color: var(--highlight);
 }
 
-span {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+h2 {
+  color: #808080;
+  margin-top: 60px;
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  color: #808080;
+}
+
+b {
+  font-family: 'Quicksand';
+  font-weight: 700;
 }
 
 /*===================== NAV STYLES =====================*/
@@ -142,7 +160,7 @@ nav li a:hover, nav li a.active {
 
 .content {
   float: left;
-  margin: 75px 10px 0px 10px;
+  margin: 130px 10px 60px 10px;
 }
 
 .img-wrap.narrow img, .img-wrap.wide img {
@@ -250,7 +268,7 @@ nav li a:hover, nav li a.active {
   .content {
     float: left;
     max-width: 800px;
-    margin: 0px 10px 0px 190px;
+    margin: 60px 10px 60px 250px;
   }
 
   .img-wrap.margin {
@@ -268,4 +286,25 @@ nav li a:hover, nav li a.active {
   .intro.centered .text {
      bottom: 50%;
  }
+}
+
+.animate {
+  -webkit-animation: fade-in 2s ease forwards;
+}
+
+@-webkit-keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.arrow {
+  width: 40px;
+}
+
+.text-spaced {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 4px;
+  /* color: #808080; */
 }

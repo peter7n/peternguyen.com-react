@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {
+	Routes,
 	Route,
 	NavLink
 } from "react-router-dom";
@@ -11,34 +12,34 @@ import Design from "./Design";
 import Giveto from "./Giveto";
 import Ipad from "./Ipad";
 import Commencement from "./Commencement";
+import Resume from './Resume';
 
 class Main extends Component {
 	render() {
 		return (
-
-				<div>
-					<header>
-						<h1><NavLink to="/">Peter Nguyen</NavLink></h1>
-						<nav>
-							<ul>
-								<li><NavLink to="/work">Work</NavLink></li>
-								<li><NavLink to="/about">About</NavLink></li>
-								<li><NavLink to="/contact">Contact</NavLink></li>
-							</ul>
-						</nav>
-					</header>
-	      		<div>
-						<Route exact path="/" component={Home} />
-						<Route exact path="/work" component={Work} />
-						<Route path="/about" component={About} />
-						<Route path="/contact" component={Contact} />
-						<Route path="/work/design" component={Design} />
-						<Route path="/work/commencement" component={Commencement} />
-						<Route path="/work/giveto" component={Giveto} />
-						<Route path="/work/ipad" component={Ipad} />
-	      		</div>
-	      	</div>
-
+			<div>
+				<header>
+					<h1><NavLink to="/">Peter Nguyen</NavLink></h1>
+					<nav>
+						<ul>
+							<li><NavLink to="/work">Work</NavLink></li>
+							<li><NavLink to="/about">About</NavLink></li>
+							<li><NavLink to="/contact">Contact</NavLink></li>
+						</ul>
+					</nav>
+				</header>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/work" element={<Work />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="/work/design" element={<Design />} />
+					<Route path="/work/commencement" element={<Commencement />} />
+					<Route path="/work/giveto" element={<Giveto />} />
+					<Route path="/work/ipad" element={<Ipad />} />
+					<Route path="/resume" element={<Resume />} />
+				</Routes>
+			</div>
 		);
 	}
 }

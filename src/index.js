@@ -1,12 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import Main from "./Main";
 import "./index.css"
 import {	BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
 	<BrowserRouter>
 	<Main/>
 	</BrowserRouter>
-	, document.getElementById("root")
 );

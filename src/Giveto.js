@@ -1,81 +1,23 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Portfolio from "./Portfolio";
+import givetoPieces from "./givetoPieces.js";
+import Page from './UI/Page.js';
 
 class Giveto extends Component {
 	render() {
-		const pieces = [
-			{
-				"imgSrc":"/images/giveto-mobile-1-1.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 1 | Select a Gift",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-			{
-				"imgSrc":"/images/giveto-mobile-1-2.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 1 | Select a Gift",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-			{
-				"imgSrc":"/images/giveto-mobile-1-3.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 1 | Select a Gift",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-			{
-				"imgSrc":"/images/giveto-mobile-2-1.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 2 | Confirm Gift Details",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-			{
-				"imgSrc":"/images/giveto-mobile-2-3.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 2 | Confirm Gift Details",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-			{
-				"imgSrc":"/images/giveto-mobile-3-1.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 3 | Enter Your Information",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-			{
-				"imgSrc":"/images/giveto-mobile-3-3.png",
-				"imgDesc1": "",
-				"imgDesc2": "Mobile View",
-				"imgDesc3": "Step 3 | Enter Your Information",
-				"imgClass": "margin narrow",
-				"imgAlt": "Give to UCSD screenshot"
-			},
-		];
 		return (
-			<div>
-				<div className="intro">
-					<div className="text">
+			<Fragment>
+				<Page className="intro centered">
 					<p>Design and development for UC San Diego’s transactional giving website</p>
-					<p>jQuery | JavaScript | HTML | CSS</p>
-					</div>
-				</div>
+					<img className="arrow" src="/images/bounce-arrow.gif" alt="" />
+				</Page>
 
 				<div className="work">
 					<Portfolio
-						pieces={pieces}
+						pieces={givetoPieces}
 					/>
 				</div>
-			</div>
+			</Fragment>
 		);
 	}
 }
