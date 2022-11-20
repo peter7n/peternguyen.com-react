@@ -36,7 +36,9 @@ class Resume extends Component {
 					Algorithms<br />
 					Computer Networks<br />
 					Computer Architecture and Assembly Language<br />
-					Discrete Structures Usability Engineering Software QA Software Projects<br />
+					Discrete Structures<br />
+					Usability Engineering<br />
+					Software QA<br />
 				</p>
 
 				<p className="text-spaced black"><b>Bachelor of Arts, English</b><br />
