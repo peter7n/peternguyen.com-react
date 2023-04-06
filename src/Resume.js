@@ -10,16 +10,16 @@ class Resume extends Component {
 				<p className="text-spaced black"><b>Senior Web Developer</b> | 2019–Present<br />
 					<b>Web Designer/Producer</b> | 2016–2019<br />
 					UC San Diego</p>
-				<p>Developed custom plugins for content management systems that increased functionality and drastically reduced wasted time and effort</p>
-				<p>Overhauled CMS backend templates to function more dynamically, resulting in far less code and more modular, maintainable code</p>
-				<p>Led rollout of API endpoints, making content on our applications instantly more usable and valuable</p>
-				<p>Designed and rethought numerous UIs to make transactions more intuitive and streamlined for the user</p>
+				<p>Increased functionality of our content management systems and automated many menial tasks by developing custom plugins in PHP</p>
+				<p>Improved user experience by designing and building new front-end features using HTML, CSS and JavaScript</p>
+				<p>Optimized page templates to work as modular components, reducing the amount of code and making it much more maintainable</p>
+				<p>Led development of API endpoints, making our web content instantly more shareable and valuable</p>
 
 				<p className="text-spaced black"><b>Design Director</b> | 2010–2016<br />
 					San Diego Union-Tribune</p>
 				<p>Raised the bar on design quality and accountability, significantly increasing international design awards garnered</p>
 				<p>Rebuilt team culture from the ground up, resulting in greater creative collaboration and skills development</p>
-				<p>Led with a modern management style, utilizing the cloud and remote work to improve efficiency; social media to enhance design reputation</p>
+				<p>Led with a modern management style, utilizing the cloud to improve efficiency and social media to enhance design reputation</p>
 
 				<h2>Education</h2>
 				<p className="text-spaced black"><b>Bachelor Of Science, Computer Science</b><br />
@@ -49,6 +49,11 @@ class Resume extends Component {
 					Design Director/Editor, Pac Ties
 				</p>
 
+				<h2>Tech Stacks</h2>
+				<p>
+					LAMP (Linux, Apache, MySQL, PHP)
+				</p>
+
 				<h2>Technologies</h2>
 				<p>
 					JavaScript<br />
@@ -70,7 +75,7 @@ class Resume extends Component {
 					Premiere<br />
 					Illustrator
 				</p>
-				<h3>CMS</h3>
+				<h3>Content Management Systems</h3>
 				<p>
 					WordPress<br />
 					Trellis<br />
@@ -81,19 +86,10 @@ class Resume extends Component {
 
 				<h2>Skills</h2>
 				<p>UI/UX design</p>
-				<p>Development using APIs</p>
+				<p>Development with APIs</p>
 				<p>Development for content management systems</p>
-				<p>Object-oriented programming</p>
 				<p>Strong understanding of typography, hierarchy and styles</p>
 				<p>Excellent writing and communication skills</p>
-				{/* <p>
-					UI/UX design<br />
-					Development using APIs<br />
-					Development for content management systems<br />
-					Object-oriented programming<br />
-					Strong understanding of typography, hierarchy and styles<br />
-					Excellent writing and communication skills
-				</p> */}
 			</Page>
 		);
 	}

@@ -8,8 +8,8 @@ class Ipad extends Component {
 		return (
 			<Fragment>
 				<Page className="intro centered">
-					<p>Design and creative direction for digital magazines created for iPad</p>
-					<p>Click on each image for individual credits</p>
+					<p>Design and creative direction for iPad magazines</p>
+					<p>Click on each image for credits</p>
 					<img className="arrow" src="/images/bounce-arrow.gif" alt="" />
 				</Page>
 

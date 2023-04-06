@@ -8,8 +8,8 @@ class Design extends Component {
 		return (
 			<Fragment>
 				<Page className="intro centered">
-					<p>Design and creative direction for covers of The San Diego Union-Tribune and The Orange County Register</p>
-					<p>Click on each image for individual credits</p>
+					<p>Design and creative direction for The San Diego Union-Tribune and The Orange County Register</p>
+					<p>Click on each image for credits</p>
 					<img className="arrow" src="/images/bounce-arrow.gif" alt="" />
 				</Page>
 
