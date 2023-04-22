@@ -5,6 +5,7 @@
    /* #f4f7f6 #ecf2f9 */
    --highlight: #008ae6;
    /* #99ddff #ADD8E6 #e37222 */
+   --gray-text: #808080;
 }
 
 * {
@@ -22,6 +23,9 @@ body {
   font-weight: 400;
   text-align: left;
   background-color: var(--main-bg-color);
+  font-size: 18px;
+  /* line-height: 28px; */
+  color: var(--gray-text);
 }
 
 h1 {
@@ -39,7 +43,6 @@ p {
   text-transform: none;
   font-size: 18px;
   line-height: 28px;
-  color: #808080;
   /* margin-top: 0; */
 }
 
@@ -48,7 +51,7 @@ p {
 }
 
 p a {
-  color: #808080;
+  color: var(--gray-text);
   /*text-decoration: none;*/
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
@@ -59,21 +62,34 @@ p a:hover {
 }
 
 h2 {
-  color: #808080;
   margin-top: 60px;
+  font-weight: 500;
 }
 
-h2:first-child {
+/* h2:first-child {
   margin-top: 0;
-}
-
-h3 {
-  color: #808080;
-}
+} */
 
 b {
   font-family: 'Quicksand';
   font-weight: 700;
+}
+
+dl {
+  margin-top: 30px;
+}
+
+dt {
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+dd {
+  margin-bottom: 30px;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+  line-height: 28px;
+  margin-left: 30px;
 }
 
 /*===================== NAV STYLES =====================*/
@@ -238,6 +254,20 @@ nav li a:hover, nav li a.active {
    padding-right: 20px;
 }
 
+.pills {
+  padding: 0;
+}
+
+.pills li {
+  border: 1px solid var(--gray-text);
+  padding: 6px 12px 6px 12px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
 @media (min-width: 481px) {
   .img-wrap.narrow img, img.narrow {
     max-width: 400px;
@@ -306,6 +336,4 @@ nav li a:hover, nav li a.active {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  margin-bottom: 4px;
-  /* color: #808080; */
 }
